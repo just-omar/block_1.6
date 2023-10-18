@@ -17,6 +17,7 @@ body {
 }
 
 .container {
+  margin: 0 auto;
   padding: 0 16px;
 }
 
@@ -36,39 +37,40 @@ body {
     gap: 16px;
     justify-content: space-between;
     align-items: center;
-    a {
+    button {
       width: 40px;
       height: 40px;
+      border: none;
     }
   }
 
-  &__burger-link {
-    background: url("../images/burger.svg");
-  }
-
-  &__logo-link {
+  &__logo-btn {
     min-width: 96.55px;
     min-height: 50.81px;
-    background: url("../images/logo.png");
+    background: url("../images/nav/logo.svg");
   }
 
-  &__call-link {
-    background: url("../images/call.png");
+  &__burger-btn {
+    background: url("../images/nav/burger.svg");
   }
 
-  &__chat-link {
-    background: url("../images/chat.png");
+  &__call-btn {
+    background: url("../images/nav/call.svg");
   }
 
-  &__profile-link {
-    background: url("../images/profile.png");
+  &__chat-btn {
+    background: url("../images/nav/chat.svg");
   }
 
-  &__repair-link {
-    background: url("../images/repair.png");
+  &__profile-btn {
+    background: url("../images/nav/profile.svg");
   }
-  &__checkstatus-link {
-    background: url("../images/checkstatus.png");
+
+  &__repair-btn {
+    background: url("../images/nav/repair.svg");
+  }
+  &__checkstatus-btn {
+    background: url("../images/nav/checkstatus.svg");
   }
 
   &__left-wrapper {
@@ -109,19 +111,19 @@ body {
 }
 
 .main {
-  &__repair-link {
+  &__repair-btn {
     .img {
       min-width: 40px;
       min-height: 40px;
-      background: url("../images/repair.png");
+      background: url("../images/nav/repair.svg");
     }
   }
-  &__checkstatus-link {
+  &__checkstatus-btn {
     .img {
       min-width: 40px;
       min-height: 40px;
 
-      background: url("../images/checkstatus.png");
+      background: url("../images/nav/checkstatus.svg");
     }
   }
 
