@@ -1,0 +1,28 @@
+@media (min-width: $breakpoint-tablet) {
+  .header {
+    position: static;
+
+    &__left-wrapper {
+      display: flex;
+    }
+    &__left-divider {
+      display: block;
+    }
+    &__right-divider {
+      position: static;
+    }
+    &__icons-container {
+      display: flex;
+      gap: 20px;
+    }
+    &__tablet-icons {
+      display: flex;
+      gap: 16px;
+    }
+  }
+}
+@media (min-width: $breakpoint-desktop) {
+  .header {
+    display: none;
+  }
+}
