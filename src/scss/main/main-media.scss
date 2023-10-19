@@ -1,0 +1,86 @@
+@media (max-width: $breakpoint-tablet) {
+  .main {
+    position: static;
+
+    &__highlight {
+      left: -28px;
+    }
+
+    &__bottom-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 48px;
+    }
+
+    &__picture {
+      border-radius: 5px;
+      width: 360px;
+    }
+    &__bottom-left {
+      .descr {
+        &--hide-tablet {
+          display: none;
+        }
+        &--show-tablet {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .main {
+    position: static;
+
+    &__services {
+      margin-top: 42px;
+      padding-top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    &__slide-menu {
+      display: flex;
+      // width: 1050px;
+      // width: 1050px;
+      // width: 100%;
+      flex-wrap: wrap;
+    }
+    &__h1-wrapper {
+      margin: 0;
+    }
+    &__highlight {
+      left: -36px;
+    }
+    &__icons {
+      display: flex;
+      gap: 32px;
+      font-weight: bold;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+        color: #1b1c21;
+      }
+    }
+    &__picture {
+      width: 530px;
+    }
+
+    &__bottom-left {
+      margin-bottom: 3.5rem;
+      .descr {
+        &--hide-desktop {
+          display: none;
+        }
+        &--show-desktop {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
