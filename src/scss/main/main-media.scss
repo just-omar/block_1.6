@@ -1,4 +1,4 @@
-@media (max-width: $breakpoint-tablet) {
+@media (min-width: $breakpoint-tablet) {
   .main {
     position: static;
 
@@ -6,26 +6,26 @@
       left: -28px;
     }
 
-    &__bottom-wrapper {
+    .info {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 48px;
+      &__text {
+        .descr {
+          &--hide-tablet {
+            display: none;
+          }
+          &--show-tablet {
+            display: inline-block;
+          }
+        }
+      }
     }
 
     &__picture {
       border-radius: 5px;
       width: 360px;
-    }
-    &__bottom-left {
-      .descr {
-        &--hide-tablet {
-          display: none;
-        }
-        &--show-tablet {
-          display: inline-block;
-        }
-      }
     }
   }
 }
@@ -53,6 +53,7 @@
     }
     &__highlight {
       left: -36px;
+      top: 15px;
     }
     &__icons {
       display: flex;
@@ -70,8 +71,9 @@
     &__picture {
       width: 530px;
     }
-
-    &__bottom-left {
+  }
+  .info {
+    &__text {
       margin-bottom: 3.5rem;
       .descr {
         &--hide-desktop {
