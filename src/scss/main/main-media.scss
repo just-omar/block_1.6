@@ -1,39 +1,38 @@
 @media (min-width: $breakpoint-tablet) {
   .main {
-    position: static;
-
-    &__highlight {
-      left: -28px;
-    }
-
     .info {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 48px;
       &__text {
-        .descr {
-          &--hide-tablet {
-            display: none;
-          }
-          &--show-tablet {
-            display: inline-block;
-          }
-        }
+        align-self: flex-start;
       }
     }
+  }
+}
 
+@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+  .main {
+    &__highlight {
+      left: -28px;
+    }
     &__picture {
       border-radius: 5px;
       width: 360px;
+    }
+    .info {
+      background-color: lightpink;
+      gap: 48px;
+      &__p2 {
+        display: block;
+      }
     }
   }
 }
 
 @media (min-width: $breakpoint-desktop) {
   .main {
-    position: static;
-
     &__services {
       margin-top: 42px;
       padding-top: 0;
@@ -71,17 +70,17 @@
     &__picture {
       width: 530px;
     }
-  }
-  .info {
-    &__text {
-      margin-bottom: 3.5rem;
-      .descr {
-        &--hide-desktop {
-          display: none;
-        }
-        &--show-desktop {
-          display: inline-block;
-        }
+    // Если вынести info за пределы main,
+    // то его перетрет более специфичный,
+    // тот который находится в main
+    .info {
+      background-color: lightblue;
+      &__p1,
+      &__p3 {
+        display: block;
+      }
+      &__p2 {
+        display: none;
       }
     }
   }
