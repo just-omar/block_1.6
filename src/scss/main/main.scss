@@ -75,21 +75,6 @@
     }
   }
 
-  .info {
-    &__text {
-      .descr {
-        font-size: 14px;
-        color: #1b1c21;
-        margin-bottom: 16px;
-        &--hide-mobile {
-          display: none;
-        }
-        &--show-mobile {
-          display: inline-block;
-        }
-      }
-    }
-  }
   &__next-wrapper {
     display: flex;
     align-items: center;
@@ -118,5 +103,15 @@
   &__picture {
     // margin-top: 16px;
     width: 100%;
+  }
+  .info {
+    &__text {
+      font-size: 14px;
+      color: #1b1c21;
+    }
+    &__p2,
+    &__p3 {
+      display: none;
+    }
   }
 }
