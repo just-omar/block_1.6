@@ -24,9 +24,8 @@
   }
 
   &__item {
-    display: flex;
     justify-content: space-between;
-    min-width: 240px;
+    max-width: 240px;
     justify-content: space-between;
     align-items: center;
     background-color: white;
@@ -51,9 +50,11 @@
     height: 40px;
     cursor: pointer;
   }
+  .swiper-slide {
+    display: flex;
+  }
   .swiper-pagination {
-    min-width: 280px;
-    min-height: 40px;
+    position: static;
   }
   .btn-wrapper {
     display: none;
