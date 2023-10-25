@@ -78,27 +78,25 @@
   &__next-wrapper {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
+    margin-bottom: 16px;
   }
+
   &__next-arrows {
-    // border: 1px solid black;
-    margin-left: calc(24px - 7px);
-    display: inline-block;
-    background: url("/images/expand.svg");
-    background-repeat: no-repeat;
-    min-width: 7.4px;
-    min-height: 10.3px;
+    min-width: 18px;
+    min-height: 28px;
+
+    transition: transform 0.3s ease;
+    background: url("../images/expand.svg");
   }
   &__next {
-    border: 1px solid black;
-    font-size: 16px;
     color: #1b1c21;
+    background-color: $color_main-bgrond;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
     border: none;
-    // background-color: #f8f8f8;
     cursor: pointer;
-
-    font-weight: bold;
-    position: relative;
   }
   &__picture {
     // margin-top: 16px;

@@ -51,6 +51,10 @@
     height: 40px;
     cursor: pointer;
   }
+  .swiper-pagination {
+    min-width: 280px;
+    min-height: 40px;
+  }
   .btn-wrapper {
     display: none;
   }
