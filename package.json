@@ -54,5 +54,8 @@
       "autoprefixer": {}
     }
   },
-  "_comment": "Установил просто sass, node-sass устарел"
+  "_comment": "Установил просто sass, node-sass устарел",
+  "dependencies": {
+    "swiper": "^8.0.2"
+  }
 }

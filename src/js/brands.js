@@ -2,7 +2,7 @@ import { swiper } from "./swiper.js";
 
 const button = document.querySelector(".btn-wrapper__hide-show");
 const buttonImg = document.querySelector(".btn-wrapper__expand");
-const items = Array.from(document.querySelectorAll(".grid-item"));
+const items = Array.from(document.querySelectorAll(".brands__item"));
 
 for (let i = 0; i < items.length; i++) {
   items[i].classList.add(`hide-desktop-items`);
