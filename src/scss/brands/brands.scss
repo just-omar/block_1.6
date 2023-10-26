@@ -22,7 +22,9 @@
 
     /* overflow: hidden; */
   }
-
+  .repair-container {
+    // display: flex;
+  }
   &__item {
     justify-content: space-between;
     max-width: 240px;

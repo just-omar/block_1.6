@@ -1,4 +1,4 @@
-export const data = [
+export const brandsSwiperData = [
   "Lenovo",
   "Samsung",
   "apple",
@@ -10,4 +10,20 @@ export const data = [
   "Lenovo",
   "sony",
   "apple",
+];
+
+export const repairSwiperData = [
+  "Ремонт ноутбуков",
+  "Ремонт планшетов ",
+  "Ремонт ПК",
+  "Ремонт мониторов",
+
+  "Ремонт утюга",
+  "Ремонт дома ",
+  "Ремонт квартиры",
+  "Ремонт машины",
+
+  "Ремонт кондиционера",
+  "Ремонт кровати",
+  "Ремонт сайта",
 ];
