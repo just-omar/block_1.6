@@ -1,0 +1,137 @@
+.prices {
+  overflow: hidden;
+  &__title-wrapper {
+    text-transform: uppercase;
+    padding: 15px 16px;
+    background: linear-gradient(270deg, #fff 0%, #f8f8f8 100%);
+  }
+  &__title-text {
+    font-family: "TT Lakes", sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: #7e7e82;
+  }
+  &__item {
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    // background-color: #7e7e82;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-top: 16px;
+  }
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 260px;
+    height: 200px;
+    gap: 36px;
+  }
+  &__services {
+    position: relative;
+    color: #1b1c21;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.2px;
+    &::before {
+      position: absolute;
+      white-space: nowrap;
+      content: "Ремонтные услуги";
+      top: -18px;
+
+      color: #7e7e82;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16px; /* 114.286% */
+    }
+  }
+  &__quantity {
+    position: relative;
+
+    color: #1b1c21;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.2px;
+
+    &::before {
+      position: absolute;
+      white-space: nowrap;
+      content: "Цена";
+      top: -18px;
+
+      color: #7e7e82;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16px; /* 114.286% */
+    }
+  }
+  &__time {
+    position: relative;
+
+    color: #1b1c21;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.2px;
+    &::before {
+      position: absolute;
+      white-space: nowrap;
+      content: "Срок";
+      top: -18px;
+
+      color: #7e7e82;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16px; /* 114.286% */
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+
+    width: 119px;
+    height: 32px;
+
+    border-radius: 16px;
+    background: #ff3e79;
+    border: none;
+    display: flex;
+    gap: 8px;
+    padding: 4px 8px 4px 12px;
+    span {
+      color: #fff;
+      text-align: right;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 200% */
+      letter-spacing: -0.15px;
+      text-transform: uppercase;
+    }
+    .arrow {
+      width: 24px;
+      height: 24px;
+      background: url("/src/images/goside.svg");
+    }
+  }
+  .swiper-pagination {
+    position: static;
+  }
+}
