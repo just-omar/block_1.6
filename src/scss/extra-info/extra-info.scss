@@ -1,0 +1,36 @@
+.extra-info {
+  display: flex;
+  flex-direction: column;
+  &__paragraph {
+    color: #1b1c21;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+  }
+  &__link {
+    position: relative;
+
+    text-decoration: none;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 21px;
+      left: 104px;
+      width: 24px;
+      height: 27.491px;
+      background: url("/src/images/more.svg");
+    }
+  }
+  &__link-title {
+    color: #1b1c21;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+  }
+}

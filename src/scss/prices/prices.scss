@@ -112,8 +112,9 @@
     border-radius: 16px;
     background: #ff3e79;
     border: none;
-    display: flex;
-    gap: 8px;
+    text-align: start;
+    // display: flex;
+    // gap: 8px;
     padding: 4px 8px 4px 12px;
     span {
       color: #fff;
@@ -124,14 +125,29 @@
       line-height: 24px; /* 200% */
       letter-spacing: -0.15px;
       text-transform: uppercase;
+      &::after {
+        content: "";
+        position: absolute;
+        // top: 0;
+        right: 8px;
+        // margin-right: 18px;
+        width: 24px;
+        height: 24px;
+        background: url("/src/images/goside.svg");
+      }
     }
-    .arrow {
-      width: 24px;
-      height: 24px;
-      background: url("/src/images/goside.svg");
-    }
+
+    // .arrow {
+    //   width: 24px;
+    //   height: 24px;
+    //   background: url("/src/images/goside.svg");
+    // }
   }
   .swiper-pagination {
     position: static;
   }
+
+  // .swiper-pagination-bullet-active {
+  //   background-color: #b5b6bc;
+  // }
 }
