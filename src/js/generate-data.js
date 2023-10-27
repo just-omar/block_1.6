@@ -21,17 +21,32 @@ for (let i = 0; i < brandsSwiperData.length; i++) {
 }
 console.log("GENERATED");
 
-const repairContainer = document.querySelector(".repair-container");
+const repairContainer = document.querySelector(".repair__container");
 
 for (let i = 0; i < repairSwiperData.length; i++) {
   const gridItem = document.createElement("div");
-  gridItem.classList.add("brands__item", "swiper-slide");
+  gridItem.classList.add("repair__item", "swiper-slide");
   const p = document.createElement("p");
   p.textContent = repairSwiperData[i];
-  p.classList.add("brands__paragraph");
+  p.classList.add("repair__paragraph");
   const link = document.createElement("a");
-  link.classList.add("brands__link");
+  link.classList.add("repair__link");
   gridItem.appendChild(p);
   gridItem.appendChild(link);
   repairContainer.appendChild(gridItem);
 }
+
+// const pricesContainer = document.querySelector(".prices-container");
+
+// for (let i = 0; i < repairSwiperData.length; i++) {
+//   const gridItem = document.createElement("div");
+//   gridItem.classList.add("brands__item", "swiper-slide");
+//   const p = document.createElement("p");
+//   p.textContent = repairSwiperData[i];
+//   p.classList.add("brands__paragraph");
+//   const link = document.createElement("a");
+//   link.classList.add("brands__link");
+//   gridItem.appendChild(p);
+//   gridItem.appendChild(link);
+//   repairContainer.appendChild(gridItem);
+// }

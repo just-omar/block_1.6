@@ -44,4 +44,22 @@ export const swiper2 = new Swiper(".swiper-2", {
   },
 });
 
+export const swiper3 = new Swiper(".swiper-3", {
+  direction: "horizontal",
+  loop: true,
+  slidesPerView: "auto",
+  spaceBetween: 5,
+  breakpoints: {
+    768: {
+      enabled: false,
+    },
+  },
+  modules: [Pagination],
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    type: "bullets",
+  },
+});
+
 console.log("swiper");

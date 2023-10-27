@@ -1,4 +1,4 @@
-.brands {
+.repair {
   overflow: hidden;
   &__title-wrapper {
     text-transform: uppercase;
@@ -14,34 +14,21 @@
     margin: 0;
     color: #7e7e82;
   }
-
-  // &__container {
-  //   display: flex;
-  //   /* БУДЕТ ВИДЕН ТОЛЬКО ПЕРВЫЙ СЛАЙД. */
-  //   /* ТАК НЕ ДЕЛАТЬ */
-
-  //   /* overflow: hidden; */
-  // }
-
   &__item {
     justify-content: space-between;
-    max-width: 240px;
     align-items: center;
     background-color: white;
+    // background-color: #7e7e82;
     padding: 12px 16px;
     border-radius: 6px;
     border: 1px solid #eaeaea;
     margin-top: 16px;
-
-    width: 240px;
-    height: 72px;
   }
-  &__img {
-    max-width: 128px;
-    max-height: 44px;
+  &__paragraph {
+    align-self: flex-start;
   }
-
   &__link {
+    align-self: flex-end;
     display: inline-block;
     background: url("../images/go.svg");
     width: 40px;
@@ -50,6 +37,9 @@
   }
   .swiper-slide {
     display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 160px;
   }
   .swiper-pagination {
     position: static;

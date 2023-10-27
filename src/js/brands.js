@@ -1,4 +1,4 @@
-import { swiper, swiper2 } from "./swiper.js";
+import { swiper, swiper2, swiper3 } from "./swiper.js";
 
 const button = document.querySelector(".btn-wrapper__hide-show");
 const buttonImg = document.querySelector(".btn-wrapper__expand");
@@ -47,6 +47,7 @@ function onResize() {
   if (innerWidth > 700) {
     swiper.slideTo(0);
     swiper2.slideTo(0);
+    swiper3.slideTo(0);
   }
   // if (mobile.matches) {
   //   console.log("mobile");
