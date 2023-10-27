@@ -1,0 +1,43 @@
+@media (min-width: $breakpoint-tablet) {
+  .info {
+    display: flex;
+    gap: 48px;
+    &__text {
+      max-width: 312px;
+      align-self: flex-start;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+  .info {
+    gap: 48px;
+    &__p2 {
+      display: block;
+    }
+    &__picture {
+      border-radius: 5px;
+      max-height: 208px;
+      max-width: 360px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  // Если вынести info за пределы main,
+  // то его перетрет более специфичный,
+  // тот который находится в main
+  .info {
+    background-color: lightblue;
+    &__p1,
+    &__p3 {
+      display: block;
+    }
+    &__p2 {
+      display: none;
+    }
+    &__picture {
+      width: 530px;
+    }
+  }
+}
