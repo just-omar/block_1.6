@@ -2,8 +2,6 @@
   .main {
     .info {
       display: flex;
-      // justify-content: center;
-      // align-items: center;
       gap: 48px;
       &__text {
         max-width: 312px;
@@ -20,14 +18,14 @@
     }
 
     .info {
-      // background-color: lightpink;
       gap: 48px;
       &__p2 {
         display: block;
       }
       &__picture {
         border-radius: 5px;
-        width: 360px;
+        max-height: 208px;
+        max-width: 360px;
       }
     }
     .hide {
@@ -47,9 +45,6 @@
     }
     &__slide-menu {
       display: flex;
-      // width: 1050px;
-      // width: 1050px;
-      // width: 100%;
       flex-wrap: wrap;
     }
     &__h1-wrapper {
