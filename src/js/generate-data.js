@@ -1,8 +1,4 @@
-import {
-  brandsSwiperData,
-  repairSwiperData,
-  pricesSwiperData,
-} from "./data.js";
+import { brandsSwiperData, repairSwiperData } from "./data.js";
 
 const gridContainer = document.querySelector(".brands__container");
 
@@ -35,18 +31,3 @@ for (let i = 0; i < repairSwiperData.length; i++) {
   gridItem.appendChild(link);
   repairContainer.appendChild(gridItem);
 }
-
-// const pricesContainer = document.querySelector(".prices-container");
-
-// for (let i = 0; i < repairSwiperData.length; i++) {
-//   const gridItem = document.createElement("div");
-//   gridItem.classList.add("brands__item", "swiper-slide");
-//   const p = document.createElement("p");
-//   p.textContent = repairSwiperData[i];
-//   p.classList.add("brands__paragraph");
-//   const link = document.createElement("a");
-//   link.classList.add("brands__link");
-//   gridItem.appendChild(p);
-//   gridItem.appendChild(link);
-//   repairContainer.appendChild(gridItem);
-// }
