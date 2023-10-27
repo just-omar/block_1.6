@@ -1,5 +1,6 @@
 .brands {
   overflow: hidden;
+  margin-top: 15px;
   &__title-wrapper {
     text-transform: uppercase;
     padding: 15px 16px;
@@ -53,6 +54,7 @@
   }
   .swiper-pagination {
     position: static;
+    margin-top: 16px;
   }
   .btn-wrapper {
     display: none;
