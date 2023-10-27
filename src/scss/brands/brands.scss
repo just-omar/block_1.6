@@ -25,6 +25,10 @@
   .repair-container {
     // display: flex;
   }
+  .prices-container {
+    display: flex;
+    flex-direction: column;
+  }
   &__item {
     justify-content: space-between;
     max-width: 240px;

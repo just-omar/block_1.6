@@ -1,4 +1,8 @@
-import { brandsSwiperData, repairSwiperData } from "./data.js";
+import {
+  brandsSwiperData,
+  repairSwiperData,
+  pricesSwiperData,
+} from "./data.js";
 
 const gridContainer = document.querySelector(".brands__container");
 
