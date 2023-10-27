@@ -17,15 +17,16 @@
     &__highlight {
       left: -28px;
     }
-    &__picture {
-      border-radius: 5px;
-      width: 360px;
-    }
+
     .info {
       background-color: lightpink;
       gap: 48px;
       &__p2 {
         display: block;
+      }
+      &__picture {
+        border-radius: 5px;
+        width: 360px;
       }
     }
     .hide {
@@ -70,9 +71,7 @@
         color: #1b1c21;
       }
     }
-    &__picture {
-      width: 530px;
-    }
+
     // Если вынести info за пределы main,
     // то его перетрет более специфичный,
     // тот который находится в main
@@ -84,6 +83,9 @@
       }
       &__p2 {
         display: none;
+      }
+      &__picture {
+        width: 530px;
       }
     }
   }

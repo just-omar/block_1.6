@@ -1,4 +1,4 @@
-const readMoreBtn = document.querySelector(".main__next-wrapper");
+const readMoreBtn = document.querySelector(".info__next");
 const info = document.querySelector(".info");
 const p2 = info.querySelector(".info__p2");
 const p3 = info.querySelector(".info__p3");
