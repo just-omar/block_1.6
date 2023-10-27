@@ -1,4 +1,5 @@
-const readMoreBtn = document.querySelector(".info__next");
+const readMoreBtn = document.querySelector(".info__btn-wrapper");
+const btnArrows = readMoreBtn.querySelector(".info__btn-arrows");
 const info = document.querySelector(".info");
 const p2 = info.querySelector(".info__p2");
 const p3 = info.querySelector(".info__p3");
@@ -10,6 +11,8 @@ const desktopMedia = "(min-width: 1440px)";
 
 readMoreBtn.addEventListener("click", () => {
   readMoreBtn.classList.toggle("read-more");
+  btnArrows.classList.toggle("rotate");
+
   if (readMoreBtn.classList.contains("read-more")) {
     if (window.matchMedia(mobileMedia).matches) {
       p3.classList.add("show");

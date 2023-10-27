@@ -2,10 +2,11 @@
   .main {
     .info {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      // justify-content: center;
+      // align-items: center;
       gap: 48px;
       &__text {
+        max-width: 312px;
         align-self: flex-start;
       }
     }
@@ -19,7 +20,7 @@
     }
 
     .info {
-      background-color: lightpink;
+      // background-color: lightpink;
       gap: 48px;
       &__p2 {
         display: block;
