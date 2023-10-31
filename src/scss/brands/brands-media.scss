@@ -42,7 +42,6 @@
 @media (min-width: 768px) and (max-width: 1120px) {
   .brands {
     &__container.swiper-wrapper {
-      // background-color: salmon;
       display: grid;
       // grid-template-columns: repeat(3, 1fr);
       grid-template-columns: repeat(3, 224px);
@@ -59,7 +58,6 @@
 @media (min-width: 1120px) {
   .brands {
     &__container.swiper-wrapper {
-      background-color: seagreen;
       display: grid;
       // grid-template-columns: repeat(4, 1fr);
       grid-template-columns: repeat(4, 240px);
