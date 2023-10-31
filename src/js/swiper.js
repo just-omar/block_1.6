@@ -63,3 +63,21 @@ export const swiper3 = new Swiper(".swiper-3", {
 });
 
 console.log("swiper");
+
+addEventListener("resize", debounce(onResize, 20));
+
+function onResize() {
+  if (innerWidth > 700) {
+    swiper.slideTo(0);
+    swiper2.slideTo(0);
+    swiper3.slideTo(0);
+  }
+}
+
+function debounce(func, delay) {
+  let timeoutId;
+  return function () {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(func, delay);
+  };
+}

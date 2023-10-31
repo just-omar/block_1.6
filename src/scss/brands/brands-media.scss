@@ -44,23 +44,16 @@
     &__container.swiper-wrapper {
       // background-color: salmon;
       display: grid;
+      // grid-template-columns: repeat(3, 1fr);
       grid-template-columns: repeat(3, 224px);
       grid-gap: 10px;
     }
-  }
-  // .brands__container {
-  //   display: grid;
-  //   grid-template-columns: repeat(3, 1fr);
-  //   grid-gap: 10px;
-  // }
-  /* .red:nth-child(-n + 6) {
-        background-color: red;
-      } */
-  .hide-tablet-items:nth-child(n + 7) {
-    display: none;
-  }
-  .show-tablet-items:nth-child(n + 7) {
-    display: flex;
+    .hide-tablet-items:nth-child(n + 7) {
+      display: none;
+    }
+    .show-tablet-items:nth-child(n + 7) {
+      display: flex;
+    }
   }
 }
 @media (min-width: 1120px) {
@@ -68,17 +61,15 @@
     &__container.swiper-wrapper {
       background-color: seagreen;
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      // grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(4, 240px);
       grid-gap: 10px;
     }
-  }
-  /* .green:nth-child(-n + 8) {
-        background-color: seagreen;
-      } */
-  .hide-desktop-items:nth-child(n + 9) {
-    display: none;
-  }
-  .show-desktop-items:nth-child(n + 9) {
-    display: flex;
+    .hide-desktop-items:nth-child(n + 9) {
+      display: none;
+    }
+    .show-desktop-items:nth-child(n + 9) {
+      display: flex;
+    }
   }
 }
