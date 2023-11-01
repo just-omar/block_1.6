@@ -1,16 +1,14 @@
 .prices {
   overflow: hidden;
   margin-top: 24px;
-  * {
-    // border: 1px solid black;
-  }
+
   &__title-wrapper {
     text-transform: uppercase;
     padding: 15px 16px;
     background: linear-gradient(270deg, #fff 0%, #f8f8f8 100%);
   }
   &__title-text {
-    font-family: "TT Lakes", sans-serif;
+    // font-family: "TT Lakes", sans-serif;
     line-height: 24px;
     font-size: 16px;
     font-weight: 400;
@@ -27,7 +25,7 @@
     align-items: center;
     background-color: white;
     // background-color: #7e7e82;
-    padding: 12px 16px;
+    padding: 16px;
     border-radius: 6px;
     margin-top: 16px;
   }
@@ -37,12 +35,10 @@
     align-items: flex-start;
     width: 260px;
     height: 200px;
-    gap: 36px;
   }
   &__services {
     position: relative;
     color: #1b1c21;
-
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
