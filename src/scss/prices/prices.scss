@@ -1,6 +1,9 @@
 .prices {
   overflow: hidden;
   margin-top: 24px;
+  * {
+    // border: 1px solid black;
+  }
   &__title-wrapper {
     text-transform: uppercase;
     padding: 15px 16px;
@@ -14,6 +17,10 @@
     padding: 0;
     margin: 0;
     color: #7e7e82;
+  }
+
+  .header-row {
+    display: none;
   }
   &__item {
     justify-content: space-between;
@@ -55,6 +62,8 @@
     }
   }
   &__quantity {
+    word-wrap: nowrap;
+
     position: relative;
 
     color: #1b1c21;
