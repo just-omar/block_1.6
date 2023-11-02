@@ -20,6 +20,12 @@
   .header-row {
     display: none;
   }
+  &__line {
+    margin-left: 16px;
+    width: 688px;
+    background-color: #eaeaea;
+    height: 1px;
+  }
   &__item {
     justify-content: space-between;
     align-items: center;

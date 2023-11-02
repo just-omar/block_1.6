@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .extra-info {
+    &__paragraph {
+      max-width: 421px;
+    }
+    &__link {
+      &::after {
+        top: -2px;
+        left: 289px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1120px) {
+}
+@media (min-width: 1120px) {
+}

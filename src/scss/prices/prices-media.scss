@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 1120px) {
   .prices {
-    font-family: "TT Lakes Regular", sans-serif;
-
     // * {
     //   border: 1px solid black;
     // }
@@ -94,8 +94,6 @@
       flex-direction: column;
     }
   }
-}
-@media (min-width: 768px) and (max-width: 1120px) {
 }
 @media (min-width: 1120px) {
 }
