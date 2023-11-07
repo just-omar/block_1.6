@@ -6,7 +6,10 @@
 
 @media (min-width: $breakpoint-desktop) {
   .aside {
-    display: block;
+    // padding-top: 30px;
+    visibility: visible;
+    opacity: 1;
+    // display: block;
     z-index: 1000;
     position: fixed;
     top: 0;

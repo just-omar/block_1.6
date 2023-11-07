@@ -8,6 +8,9 @@
 
 @media (min-width: $breakpoint-desktop) {
   .main {
+    margin-left: auto !important;
+    // transform: translateX(150px);
+    // margin: 0 0 0 auto;
     &__services {
       margin-top: 42px;
       padding-top: 0;
