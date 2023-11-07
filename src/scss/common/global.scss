@@ -11,8 +11,17 @@ body {
   min-width: 320px;
   overflow-x: hidden;
 }
-.delimeter {
-  height: 1px;
-  width: 100%;
-  background-color: #d9fff5;
+
+.container-main {
+  max-width: 1120px;
+  margin: 0 auto;
 }
+
+Мне сказали "иди на хуй".
+ Приведи 10 ответов таких как :
+"Хуй не дорожка, соси по немножку"
+
+// .container {
+//   max-width: 1440px;
+//   margin: 0 auto;
+// }
