@@ -10,11 +10,6 @@
     <div class="container">
       <aside class="aside">
         <header class="aside__header">
-          <div class="aside__left">
-            <button class="button">
-              <div class="button__burger"></div>
-            </button>
-          </div>
           <img
             src="./images/nav/logo.svg"
             width="97"
@@ -22,11 +17,13 @@
             alt="логотип"
           />
 
-          <div class="aside__right">
+          <button class="aside__header-search"></button>
+
+          <!-- <div class="aside__right">
             <button class="button">
               <div class="button__search"></div>
             </button>
-          </div>
+          </div> -->
         </header>
         <nav class="aside__nav">
           <button class="aside__option">Ремонт техники</button>
@@ -38,17 +35,11 @@
           <button class="aside__option">Наши сервисные центры</button>
           <button class="aside__option">Контакты</button>
         </nav>
-        <footer class="aside-footer">
-          <div class="aside-footer__top">
-            <button class="button">
-              <div class="button__call"></div>
-            </button>
-            <button class="button">
-              <div class="button__chat"></div>
-            </button>
-            <button class="button">
-              <div class="button__profile"></div>
-            </button>
+        <footer class="aside__contacts">
+          <div class="aside__contacts-buttons">
+            <button class="call"></button>
+            <button class="chat"></button>
+            <button class="profile"></button>
           </div>
           <div class="aside-footer__mid">
             <a href="mailto:mail@cps.com" class="aside-footer__mail"
@@ -59,10 +50,10 @@
               >8 800 890 8900</a
             >
           </div>
-          <div class="bottom">
-            <button class="bottom__ru">RU</button>
-            <button class="bottom__en">EN</button>
-            <button class="bottom__ch">CH</button>
+          <div class="aside__lang">
+            <button class="ru">RU</button>
+            <button class="en">EN</button>
+            <button class="ch">CH</button>
           </div>
         </footer>
       </aside>

@@ -17,9 +17,11 @@ body {
   margin: 0 auto;
 }
 
-Мне сказали "иди на хуй".
- Приведи 10 ответов таких как :
-"Хуй не дорожка, соси по немножку"
+@media (min-width: 1440px) {
+  .container-main {
+    margin: 0 0 0 auto;
+  }
+}
 
 // .container {
 //   max-width: 1440px;
