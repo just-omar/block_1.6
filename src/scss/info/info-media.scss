@@ -3,6 +3,12 @@
     display: flex;
     gap: 48px;
     &__text {
+      color: #1b1c21;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 142.857% */
+      letter-spacing: 0.2px;
       max-width: 312px;
       align-self: flex-start;
     }
@@ -24,11 +30,7 @@
 }
 
 @media (min-width: $breakpoint-desktop) {
-  // Если вынести info за пределы main,
-  // то его перетрет более специфичный,
-  // тот который находится в main
   .info {
-    background-color: lightblue;
     &__p1,
     &__p3 {
       display: block;
@@ -36,7 +38,12 @@
     &__p2 {
       display: none;
     }
+    &__text {
+      max-width: 490px;
+      align-self: flex-start;
+    }
     &__picture {
+      height: 383px;
       width: 530px;
     }
   }
