@@ -42,6 +42,7 @@
       grid-template-columns: repeat(3, 224px);
       gap: 0 24px;
     }
+
     .hide-tablet-items:nth-child(n + 4) {
       display: none;
     }
@@ -55,7 +56,7 @@
     &__container.swiper-wrapper {
       display: grid;
       grid-template-columns: repeat(4, 240px);
-      gap: 0 24px;
+      gap: 0 32px;
     }
     .hide-desktop-items:nth-child(n + 5) {
       display: none;
