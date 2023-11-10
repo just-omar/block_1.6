@@ -10,6 +10,7 @@
     <div class="container">
       <aside class="aside">
         <header class="aside__header">
+          <button class="aside__header-close"></button>
           <img
             src="./images/nav/logo.svg"
             width="97"
@@ -30,9 +31,9 @@
         </nav>
         <div class="aside__contacts">
           <div class="aside__contacts-buttons">
-            <button class="call"></button>
-            <button class="chat"></button>
-            <button class="profile"></button>
+            <button class="aside__call-btn"></button>
+            <button class="aside__chat-btn"></button>
+            <button class="aside__profile-btn"></button>
           </div>
             <a href="mailto:mail@cps.com" class="aside__contacts-mail"
               >mail@cps.com</a
@@ -47,10 +48,61 @@
             <button class="en">EN</button>
             <button class="ch">CH</button>
           </div>
+          <div class="aside__zone-close"></div>
         </footer>
       </aside>
-      <div class="modal" style="display: none">
-        <div class="foo-bar"></div>
+      <div class="modal">
+        <div class="modal__container modal-feedback">
+          <div class="modal__header">
+            <button class="modal__butto n-close button-close-feedback">
+              <img src="./image/burgerX.svg" alt="close">
+            </button>
+          </div>
+          <div class="modal__title">Обратная связь</div>
+          <ul class="modal__list">
+            <li class="modal__item">
+              <input class="modal__input input-name" type="text" placeholder="Имя">
+            </li>
+            <li class="modal__item">
+              <input class="modal__input" type="text" placeholder="Телефон">
+            </li>
+            <li class="modal__item">
+              <input class="modal__input" type="text" placeholder="Электронная почта">
+            </li>
+            <li class="modal__item">
+              <textarea class="modal__input" name="" id="" cols="37" rows="8" placeholder="Сообщение"></textarea>
+            </li>
+          </ul>
+          <p class="modal__text">
+            Нажимая “отправить”, вы даете согласие на
+            <span>обработку персональных данных</span> и соглашаетесь с нашей
+            <span>политикой конфиденциальности</span>
+          </p>
+          <button class="btn-order" type="button">
+            <span class="btn-order__text">отправить</span>
+            <i class="btn-order__icon" ></i>
+          </button>
+          <div class="modal__zone-close zone-close-feedback"></div>
+        </div>
+        <div class="modal__container modal-call">
+          <div class="modal__header">
+            <button class="modal__button-close button-close-call">
+              <img src="./image/burgerX.svg" alt="">
+            </button>
+          </div>
+          <div class="modal__title">Заказать звонок</div>
+          <input class="modal__input input-call" type="text" placeholder="Телефон">
+          <p class="modal__text">
+            Нажимая “отправить”, вы даете согласие на
+            <span>обработку персональных данных</span> и соглашаетесь с нашей
+            <span>политикой конфиденциальности</span>
+          </p>
+          <button class="btn-order" type="button">
+            <span class="btn-order__text">отправить</span>
+            <i class="btn-order__icon" ></i>
+          </button>
+          <div class="modal__zone-close zone-close-call"></div>
+        </div>
       </div>
       <div class="container-main">
         <div class="container-main-info">

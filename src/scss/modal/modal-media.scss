@@ -1,0 +1,36 @@
+@media (min-width: $breakpoint_tablet) {
+  .modal {
+    &__button-close {
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      top: 32px;
+      left: -72px;
+    }
+    &__title {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint_desktop) {
+  .modal {
+    &__input {
+      width: 376px;
+    }
+    &__text {
+      width: 376px;
+    }
+  }
+}
+
+@media (max-height: 825px) {
+  .modal {
+    &__button-close {
+      margin-bottom: 5px;
+    }
+    &__text {
+      margin-bottom: 9px;
+    }
+  }
+}

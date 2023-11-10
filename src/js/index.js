@@ -4,3 +4,6 @@ import "./swiper.js";
 import "./brands.js";
 import "./repair.js";
 import "./readMore.js";
+import "./aside.js";
+import "./modal-call.js";
+import "./modal-feedback.js";
