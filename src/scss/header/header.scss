@@ -4,7 +4,9 @@
     position: sticky;
     top: 0;
     // z-index: 1000;
-    // background-color: $color_sub-main;
+    margin: 0 -24px;
+    padding: 0 24px;
+    background-color: $color_sub-main;
   }
   &__nav {
     min-height: 88px;
