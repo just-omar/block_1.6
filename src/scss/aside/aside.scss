@@ -22,15 +22,15 @@
     width: 40px;
     height: 40px;
     border: none;
-    // background: url("/images/nav/burger-close.svg");
-    background: url("/images/nav/burger-close.svg");
+    // background: url("../images/nav/burger-close.svg");
+    background: url("../images/nav/burger-close.svg");
   }
   &__header-search {
     cursor: pointer;
     width: 40px;
     height: 40px;
     border: none;
-    background: url("/images/nav/search.svg");
+    background: url("../images/nav/search.svg");
   }
 
   &__nav {
@@ -79,16 +79,16 @@
     }
   }
   &__call-btn {
-    background: center / contain no-repeat url("/images/nav/call.svg");
+    background: center / contain no-repeat url("../images/nav/call.svg");
     // background-repeat: no-repeat;
     // background-size: contain;
     // background-position: center;
   }
   &__chat-btn {
-    background: center / contain no-repeat url("/images/nav/chat.svg");
+    background: center / contain no-repeat url("../images/nav/chat.svg");
   }
   &__profile-btn {
-    background: center / contain no-repeat url("/images/nav/profile.svg");
+    background: center / contain no-repeat url("../images/nav/profile.svg");
   }
   &__contacts {
     margin-top: 20px;
