@@ -1005,7 +1005,7 @@ body {
   right: 8px;
   width: 24px;
   height: 24px;
-  background: url("/src/images/goside.svg");
+  background: url("/images/goside.svg");
 }
 .prices .swiper-pagination {
   position: static;
@@ -1112,7 +1112,7 @@ body {
   left: 104px;
   width: 24px;
   height: 27.491px;
-  background: url("/src/images/more.svg");
+  background: url("/images/more.svg");
 }
 .extra-info__link-title {
   color: #1b1c21;
@@ -1213,14 +1213,14 @@ body {
   width: 40px;
   height: 40px;
   border: none;
-  background: url("/src/images/nav/burger-close.svg");
+  background: url("/images/nav/burger-close.svg");
 }
 .aside__header-search {
   cursor: pointer;
   width: 40px;
   height: 40px;
   border: none;
-  background: url("/src/images/nav/search.svg");
+  background: url("/images/nav/search.svg");
 }
 .aside__nav {
   flex-grow: 1;
@@ -1262,13 +1262,13 @@ body {
   height: 40px;
 }
 .aside__call-btn {
-  background: center/contain no-repeat url("/src/images/nav/call.svg");
+  background: center/contain no-repeat url("/images/nav/call.svg");
 }
 .aside__chat-btn {
-  background: center/contain no-repeat url("/src/images/nav/chat.svg");
+  background: center/contain no-repeat url("/images/nav/chat.svg");
 }
 .aside__profile-btn {
-  background: center/contain no-repeat url("/src/images/nav/profile.svg");
+  background: center/contain no-repeat url("/images/nav/profile.svg");
 }
 .aside__contacts {
   margin-top: 20px;
@@ -1422,7 +1422,7 @@ body {
   margin: 0 16px 75px auto;
 }
 .modal .btn-order__icon {
-  background: url("/src/images/goside.svg");
+  background: url("/images/goside.svg");
   width: 27px;
   height: 24px;
 }
