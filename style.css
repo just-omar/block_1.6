@@ -1213,14 +1213,14 @@ body {
   width: 40px;
   height: 40px;
   border: none;
-  background: url("/images/nav/burger-close.svg");
+  background: url(./static/burger-close.svg);
 }
 .aside__header-search {
   cursor: pointer;
   width: 40px;
   height: 40px;
   border: none;
-  background: url("/images/nav/search.svg");
+  background: url(./static/search.svg);
 }
 .aside__nav {
   flex-grow: 1;
@@ -1262,13 +1262,13 @@ body {
   height: 40px;
 }
 .aside__call-btn {
-  background: center/contain no-repeat url("/images/nav/call.svg");
+  background: center/contain no-repeat url(./static/call.svg);
 }
 .aside__chat-btn {
-  background: center/contain no-repeat url("/images/nav/chat.svg");
+  background: center/contain no-repeat url(./static/chat.svg);
 }
 .aside__profile-btn {
-  background: center/contain no-repeat url("/images/nav/profile.svg");
+  background: center/contain no-repeat url(./static/profile.svg);
 }
 .aside__contacts {
   margin-top: 20px;
