@@ -16,8 +16,14 @@
     padding-left: 16px;
     margin-bottom: 40px;
     border: none;
-    background-color: transparent;
+    width: 40px;
+    height: 40px;
   }
+  &__button-close.button-close-feedback,
+  &__button-close.button-close-call {
+    background: url("../images/burgerX.svg") no-repeat;
+  }
+
   &__title {
     font-family: TT Lakes Bold;
     font-size: 24px;
