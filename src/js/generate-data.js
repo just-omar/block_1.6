@@ -15,7 +15,7 @@ for (let i = 0; i < brandsSwiperData.length; i++) {
   gridItem.appendChild(link);
   gridContainer.appendChild(gridItem);
 }
-console.log("GENERATED");
+// console.log("GENERATED");
 
 const repairContainer = document.querySelector(".repair__container");
 

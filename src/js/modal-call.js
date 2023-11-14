@@ -9,14 +9,14 @@ let containerMain = document.querySelector(".container-main");
 let body = document.querySelector("body");
 let aside = document.querySelector(".aside");
 
-console.log({
-  asideButtonCall,
-  headerButtonCall,
-  modalCall,
-  buttonCallClose,
-  zoneCloseCall,
-  focusInputCall,
-});
+// console.log({
+//   asideButtonCall,
+//   headerButtonCall,
+//   modalCall,
+//   buttonCallClose,
+//   zoneCloseCall,
+//   focusInputCall,
+// });
 
 asideButtonCall.onclick = function () {
   modalCall.classList.toggle("feedback-open");

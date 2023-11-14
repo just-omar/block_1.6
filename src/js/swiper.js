@@ -62,7 +62,7 @@ export const swiper3 = new Swiper(".swiper-3", {
   },
 });
 
-console.log("swiper");
+// console.log("swiper");
 
 addEventListener("resize", debounce(onResize, 20));
 

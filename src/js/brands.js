@@ -33,4 +33,4 @@ brandBtn.addEventListener("click", () => {
   }
 });
 
-console.log("brands started");
+// console.log("brands started");
