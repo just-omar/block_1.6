@@ -40,6 +40,14 @@
     left: 0;
     border-radius: 6px;
   }
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+  &__call-form {
+    display: flex;
+    flex-direction: column;
+  }
   &__input {
     margin: 0 16px 16px 16px;
     border: 1px solid $color_decoration-grey;
