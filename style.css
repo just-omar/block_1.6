@@ -1005,7 +1005,7 @@ body {
   right: 8px;
   width: 24px;
   height: 24px;
-  background: url("/images/goside.svg");
+  background: url(./static/goside.svg);
 }
 .prices .swiper-pagination {
   position: static;
@@ -1370,7 +1370,11 @@ body {
   padding-left: 16px;
   margin-bottom: 40px;
   border: none;
-  background-color: transparent;
+  width: 40px;
+  height: 40px;
+}
+.modal__button-close.button-close-feedback, .modal__button-close.button-close-call {
+  background: url(./static/burgerX.svg) no-repeat;
 }
 .modal__title {
   font-family: TT Lakes Bold;
@@ -1388,13 +1392,21 @@ body {
   left: 0;
   border-radius: 6px;
 }
+.modal__list {
+  display: flex;
+  flex-direction: column;
+}
+.modal__call-form {
+  display: flex;
+  flex-direction: column;
+}
 .modal__input {
   margin: 0 16px 16px 16px;
   border: 1px solid #eaeaea;
   border-radius: 8px;
   padding: 16px 12px 16px 16px;
   width: 288px;
-  color: #b5b6bc;
+  color: black;
 }
 .modal ::-moz-placeholder {
   font-family: TT Lakes Medium;
@@ -1419,10 +1431,11 @@ body {
   color: #ff3e79;
 }
 .modal .btn-order {
+  cursor: pointer;
   margin: 0 16px 75px auto;
 }
 .modal .btn-order__icon {
-  background: url("/images/goside.svg");
+  background: url(./static/goside.svg);
   width: 27px;
   height: 24px;
 }
