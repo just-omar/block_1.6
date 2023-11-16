@@ -1,13 +1,13 @@
-let asideButtonCall = document.querySelector(".aside__call-btn");
-let headerButtonCall = document.querySelector(".header__call-btn");
-let modalCall = document.querySelector(".modal-call");
-let buttonCallClose = document.querySelector(".button-close-call");
-let zoneCloseCall = document.querySelector(".zone-close-call");
-let focusInputCall = document.querySelector(".input-call");
-let containerMain = document.querySelector(".container-main");
+const asideButtonCall = document.querySelector(".aside__call-btn");
+const headerButtonCall = document.querySelector(".header__call-btn");
+const modalCall = document.querySelector(".modal-call");
+const buttonCallClose = document.querySelector(".button-close-call");
+const zoneCloseCall = document.querySelector(".zone-close-call");
+const focusInputCall = document.querySelector(".input-call");
+const containerMain = document.querySelector(".container-main");
 
-let body = document.querySelector("body");
-let aside = document.querySelector(".aside");
+const body = document.querySelector("body");
+const aside = document.querySelector(".aside");
 
 // console.log({
 //   asideButtonCall,

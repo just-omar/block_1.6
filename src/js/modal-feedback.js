@@ -1,13 +1,13 @@
-let asideButtonChat = document.querySelector(".aside__chat-btn");
-let headerButtonChat = document.querySelector(".header__chat-btn");
-let modalFeedback = document.querySelector(".modal-feedback");
-let buttonChatClose = document.querySelector(".button-close-feedback");
-let zoneCloseFeedback = document.querySelector(".zone-close-feedback");
-let focusInputName = document.querySelector(".input-name");
+const asideButtonChat = document.querySelector(".aside__chat-btn");
+const headerButtonChat = document.querySelector(".header__chat-btn");
+const modalFeedback = document.querySelector(".modal-feedback");
+const buttonChatClose = document.querySelector(".button-close-feedback");
+const zoneCloseFeedback = document.querySelector(".zone-close-feedback");
+const focusInputName = document.querySelector(".input-name");
 
-let containerMain = document.querySelector(".container-main");
-let body = document.querySelector("body");
-let aside = document.querySelector(".aside");
+const containerMain = document.querySelector(".container-main");
+const body = document.querySelector("body");
+const aside = document.querySelector(".aside");
 
 asideButtonChat.onclick = function () {
   modalFeedback.classList.toggle("feedback-open");
