@@ -18,36 +18,36 @@ const aside = document.querySelector(".aside");
 //   focusInputCall,
 // });
 
-asideButtonCall.onclick = function () {
+asideButtonCall.addEventListener("click", function () {
   modalCall.classList.toggle("feedback-open");
   containerMain.classList.add("container-main-blur");
   aside.classList.add("aside-blur");
   aside.classList.remove("aside-open");
   body.classList.add("body-overflow-hidden");
   focusInputCall.focus();
-};
+});
 
-headerButtonCall.onclick = function () {
+headerButtonCall.addEventListener("click", function () {
   modalCall.classList.toggle("feedback-open");
   containerMain.classList.add("container-main-blur");
   aside.classList.add("aside-blur");
   aside.classList.remove("aside-open");
   body.classList.add("body-overflow-hidden");
   focusInputCall.focus();
-};
+});
 
-buttonCallClose.onclick = function () {
+buttonCallClose.addEventListener("click", function () {
   modalCall.classList.remove("feedback-open");
   containerMain.classList.remove("container-main-blur");
   aside.classList.remove("aside-open");
   aside.classList.remove("aside-blur");
   body.classList.remove("body-overflow-hidden");
-};
+});
 
-zoneCloseCall.onclick = function () {
+zoneCloseCall.addEventListener("click", function () {
   modalCall.classList.remove("feedback-open");
   containerMain.classList.remove("container-main-blur");
   aside.classList.remove("aside-open");
   aside.classList.remove("aside-blur");
   body.classList.remove("body-overflow-hidden");
-};
+});

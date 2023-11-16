@@ -9,34 +9,34 @@ const containerMain = document.querySelector(".container-main");
 const body = document.querySelector("body");
 const aside = document.querySelector(".aside");
 
-asideButtonChat.onclick = function () {
+asideButtonChat.addEventListener("click", function () {
   modalFeedback.classList.toggle("feedback-open");
   containerMain.classList.add("container-main-blur");
   aside.classList.add("aside-blur");
   aside.classList.remove("aside-open");
   body.classList.add("body-overflow-hiden");
   focusInputName.focus();
-};
+});
 
-headerButtonChat.onclick = function () {
+headerButtonChat.addEventListener("click", function () {
   modalFeedback.classList.toggle("feedback-open");
   containerMain.classList.add("container-main-blur");
   aside.classList.add("aside-blur");
   aside.classList.remove("aside-open");
   body.classList.add("body-overflow-hiden");
   focusInputName.focus();
-};
+});
 
-buttonChatClose.onclick = function () {
+buttonChatClose.addEventListener("click", function () {
   modalFeedback.classList.remove("feedback-open");
   containerMain.classList.remove("container-main-blur");
   aside.classList.remove("aside-blur");
   body.classList.remove("body-overflow-hiden");
-};
+});
 
-zoneCloseFeedback.onclick = function () {
+zoneCloseFeedback.addEventListener("click", function () {
   modalFeedback.classList.remove("feedback-open");
   containerMain.classList.remove("container-main-blur");
   aside.classList.remove("aside-blur");
   body.classList.remove("body-overflow-hiden");
-};
+});
